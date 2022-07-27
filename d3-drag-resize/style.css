@@ -1,0 +1,28 @@
+        html, body, #svgWrapper, svg {
+          margin: 0;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          touch-action: pinch-zoom;
+        }
+        
+        g.circles circle:hover {
+          cursor: move;
+        }
+        
+        .resizing {
+          fill: blue;
+        }
+        
+        .moving {
+          fill: green;
+        }
+        
+        #controls {
+          position: absolute;
+          top: 0;
+        }
+        
+        #controls input {
+          width: 3em;
+        }
